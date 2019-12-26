@@ -1,0 +1,329 @@
+.field-error {
+    color: red !important;
+    font-size: 13px !important;
+    margin: 0 !important;
+}
+.req {
+	color: red;
+}
+.disp-inline{
+	display: inline;
+}
+.preloader-backdrop{
+	opacity: 0.5;
+}
+.modal-open .modal {
+   padding-top: 20px;
+}
+.del_alert_box {
+   width: 100%;
+   vertical-align: middle;
+   text-align: center;
+   padding: 20px 20px;
+}
+.del_alert_box_inner {
+   width: 100%;
+   height: 100%;
+   display: table-cell;
+   vertical-align: middle;
+}
+.mb_20 {
+   margin-bottom: 20px;
+}
+.form-control,
+select.form-control:not([size]):not([multiple]) {
+    height: calc(2.45rem + 2px);
+}
+.field-error {
+  width: 100%;
+}
+.table.table-borderless, .table.table-borderless tr, .table.table-borderless td {
+  border: none;
+}
+.img-preview {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px #777;
+}
+.img-preview img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Front css */
+.page {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.page-single {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.col-login {
+    max-width: 24rem;
+}
+html {
+    font-size: 16px;
+    height: 100%;
+    direction: ltr;
+}
+body {
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-font-feature-settings: "liga" 0;
+    font-feature-settings: "liga" 0;
+    height: 100%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: .375rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.btn-yellow {
+    color: #182633;
+    background-color: #faa828;
+    border-color: #faa828;
+}
+
+.btn-yellow:hover {
+    color: #182633;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-yellow:not(:disabled):not(.disabled).active, .btn-yellow:not(:disabled):not(.disabled):active, .show>.btn-yellow.dropdown-toggle {
+    color: #182633;
+    background-color: #d39e00;
+    border-color: #c69500;
+}
+.btn-yellow:not(:disabled):not(.disabled).active:focus, .btn-yellow:not(:disabled):not(.disabled):active:focus, .show>.btn-yellow.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,193,7,.5);
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #faa828;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    background-color: #faa828;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(250, 168, 40, .25);
+}
+.thanks-message {
+    color: green !important;
+    font-weight: bold;
+}
+.thanks-message-failed{
+    color: red !important;
+    font-weight: bold;
+
+}
+.privacy-games .card-header{
+    background-color: rgba(0,0,0,.03) !important;
+}
+
+
+/*Members Lists 06/12/2018*/
+.added_member {
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.15);
+    padding: .25rem;
+}
+.member_item {
+    background-color: #e4e4e4;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: default;
+    padding: 0 5px;
+    margin: .125rem;
+    display: inline-block;
+}
+
+span.remove_member {
+    color: #999;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.table_addMember td, .table_addMember th {
+    padding: .25rem;
+}
+
+.post-load-more {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.like-post.liked {
+    color: #faa828;
+}
+
+.custom-control-label::before {
+    border: 1px solid #d3b348;
+}
+
+.thank-you {
+  position: relative;
+  min-height: 80vh;
+}
+
+.thank-you-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.thank-you-content h1 {
+    color: #555;
+    font-size: 45pt;
+    margin: 0px 0px 30px;
+    font-weight: bold;
+}
+
+.thank-you-content p {
+    color: #888888;
+    font-size: 12pt;
+    line-height: 25px;
+}
+
+
+
+.go-home a{
+   box-shadow: 5px 0px 30px rgba(0,0,0,0.21);
+}
+
+.form-control.credit-card-number{
+    padding-right: 3rem;
+}
+.expiration-month-and-year {
+    padding-left: 3rem;
+}
+
+.form-control.credit-card-number:placeholder {
+    text-align: left;
+}
+#emay[type="tel"]:placeholder  {
+    text-align: left!important;
+    float: left;
+}
+
+.card-img {
+    width: 40px;
+    height: 35px;
+    background-color: transparent;
+    display: block;
+    margin-top: -5px;
+    background-image: url('../fronttheme/images/cc.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.visa .card-img {
+    background-position: -3px 0;
+}
+.mastercard .card-img {
+    background-position: -44px 0;
+}
+.discover .card-img {
+    background-position: -84px 0;
+}
+.americanexpress .card-img {
+    background-position: -125px 0px;
+}
+.cc-addon .card-img {
+    display: none;
+}
+.cc-addon {
+    opacity: 1!important;
+}
+.cc-addon.visa .card-img,
+.cc-addon.mastercard .card-img,
+.cc-addon.discover .card-img,
+.cc-addon.americanexpress .card-img {
+    display: block;
+}
+.visa i, .mastercard i , .discover i , .americanexpress i {
+    display: none;
+}
+
+/*.form-control.credit-card-number::focus i {
+    display: block;
+}*/
+
+#PaymentForm .input-group-addon {
+    z-index: 9;
+}
+
+.cc-addon {
+    right: 15px;
+}
+
+.custom-select {
+    height: calc(2.45rem + 2px);
+}
+.has-error {
+    border-color: red;
+}
+.col.cm-icon-box .add_photo {
+    position: absolute;
+    top: 7px;
+    right: 15px;
+}
+
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.datepicker.datepicker-dropdown  {
+    max-width: 24rem;
+}
